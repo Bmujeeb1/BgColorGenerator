@@ -1,0 +1,66 @@
+body{
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0,0  , 0.5);
+    text-align: center;
+    letter-spacing:.5em;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #00ff00, #00aaff);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+p{
+    font: 15px sans-serif;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+input{
+    height: 70px;
+    width: 70px;
+    border: none;
+    transition: .5s;
+    box-shadow: 0 0 10px black;
+    background: none;
+}
+input:hover{
+    transform: scale(1.2);
+}
+h1{
+    font:  3.5em 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 100%;
+}
+h3{
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+h2{
+    font: 1em sans-serif;
+
+}
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 2.5em;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    h1{
+        font-size: 2.0em;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    h1{
+        font-size: 1.5em;
+    }
+    
+}
